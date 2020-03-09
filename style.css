@@ -1,0 +1,186 @@
+.one {
+    margin: 1px;
+    color: #f44336;
+    font-size: 24px;
+    padding: 0px;
+}
+
+.one a {
+    color: black;
+    text-align: center;
+    padding: 12px 15px;
+    float: right;
+    text-decoration: none;
+    font-size: 17px;
+}
+
+.one a:hover {
+    background-color: skyblue;
+    color: white;
+}
+
+a.active {
+    background-color: orangered;
+    color: white;
+    border-radius: 5%;
+}
+
+.three {
+    float: left;
+    color: white;
+    background-color: black;
+    text-align: center;
+    margin: 1px;
+    font-size: 25px;
+}
+
+.four {
+    color: black;
+    background-color: gainsboro;
+    text-align: left;
+    margin: 1px;
+    font-size: 20px;
+}
+
+.five {
+    color: white;
+    background-color: black;
+    text-align: left;
+    margin: 1px;
+    font-size: 20px;
+}
+
+.five::after {
+    content: " ";
+    clear: both;
+    display: table;
+}
+
+.six {
+    color: black;
+    background-color: whitesmoke;
+    margin: 10px;
+    font-size: 20px;
+    float: left;
+    width: 25%;
+    padding: 50px;
+    border-radius: 5%;
+}
+
+.nine {
+    color: black;
+    background-color: white;
+    text-align: left;
+    margin: 1px;
+    font-size: 20px;
+}
+
+.nine::after {
+    content: " ";
+    clear: both;
+    display: table;
+}
+
+.ten {
+    color: black;
+    margin: 10px;
+    font-size: 20px;
+    float: left;
+    width: 40%;
+    padding: 50px;
+}
+
+.eleven {
+    color: black;
+    background-color: whitesmoke;
+    float: right;
+    margin: 1px;
+    font-size: 20px;
+}
+
+.twe {
+    color: white;
+    background-color: black;
+    text-align: center;
+    margin: 1px;
+    font-size: 20px;
+}
+
+div {
+    padding: 1%;
+    color: black;
+    background-color: white;
+    width: 98%;
+}
+
+input[type=button] {
+    background-color: orangered;
+    border: 1cm;
+    color: white;
+    padding: 12px 24px;
+    margin: 4px 2px;
+    cursor: pointer;
+    border-radius: 5%;
+}
+
+img {
+    float: left;
+    width: 8%;
+    padding: 50px;
+    border-radius: 50%;
+}
+
+.container {
+    width: 100%;
+}
+
+.skills {
+    text-align: right;
+    padding-top: 0%;
+    padding-bottom: 0%;
+    color: white;
+}
+
+.html {
+    width: 90%;
+    background-color: #4CAF50;
+}
+
+.css {
+    width: 80%;
+    background-color: #2196F3;
+}
+
+.js {
+    width: 70%;
+    background-color: #f44336;
+}
+
+.java {
+    width: 75%;
+    background-color: #808080;
+}
+
+.English {
+    width: 85%;
+    background-color: #4CAF50;
+}
+
+.Hindi {
+    width: 70%;
+    background-color: #2196F3;
+}
+
+.Telugu {
+    width: 90%;
+    background-color: #808080;
+}
+
+.tamil {
+    width: 50%;
+    background-color: #f44336;
+}
+
+body {
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+}
